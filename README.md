@@ -1,4 +1,4 @@
-# API-INTEGRATION
+# CHAT APPLICATION
 
 *Company* : CodTech IT Solutions
 
@@ -12,8 +12,10 @@
 
 *Mentor* : Neela Santosh
 
-#This project is a responsive weather information webpage that fetches and displays real-time weather data from the OpenWeatherMap API based on user input. Using HTML, CSS, and JavaScript, the app allows users to enter a city name and receive instant updates on current temperature and weather conditions such as “clear sky” or “light rain.” When the user clicks the button, a JavaScript function constructs a URL request to the API, fetches the weather data in JSON format, and updates the webpage dynamically without reloading. If the input is invalid or there’s an issue with the API, the app gracefully shows an error message like “City not found” or “Error fetching weather data.” The interface is designed to be simple and mobile-friendly, with a clean layout and smooth user interaction. This project is ideal for beginners learning how to use REST APIs, handle asynchronous requests with 'fetch()', and manipulate the DOM. It also serves as a great foundation for adding more advanced features, such as extended forecasts, weather icons, or geolocation support. With a few lines of code and minimal setup, this app provides practical experience in creating dynamic, real-time web applications using modern frontend technologies.#
+#This project is a real-time chat application built using **Node.js**, **Express**, and **Socket.IO** to enable instant communication between multiple users through WebSockets. The app allows users to enter messages into a chat box and have them immediately broadcasted to everyone connected to the server, simulating the core functionality of modern messaging platforms. On the frontend, a clean and responsive HTML/CSS interface provides a simple layout for users to read and send messages. The JavaScript logic on the client side uses Socket.IO to emit messages to the server and listen for incoming messages from other users, dynamically updating the chat interface in real time without needing to reload the page.
+
+The backend, powered by Node.js and Express, sets up a web server and integrates Socket.IO to handle bidirectional communication with all connected clients. When a user sends a message, it is received by the server and then immediately emitted to all users connected via the socket. This architecture ensures a fast and seamless experience across multiple clients, making the app a great example of real-time web development. The project is ideal for beginners and intermediate developers looking to understand how WebSockets work, how to structure frontend and backend code for live data updates, and how to build engaging web applications that go beyond basic HTTP requests.#
 
 #OUTPUT
 
-![Image](https://github.com/user-attachments/assets/613b8e33-48a7-4624-927d-1c4d4b2a4629)
+
