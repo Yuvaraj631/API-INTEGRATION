@@ -1,4 +1,4 @@
-# CHAT APPLICATION
+# REAL-TIME COLLABORATIVE DOCUMENT EDITOR
 
 *Company* : CodTech IT Solutions
 
@@ -18,4 +18,4 @@ On the backend, **Node.js with Express** or **Python with Django/Flask** provide
 
 #OUTPUT
 
-
+![Image](https://github.com/user-attachments/assets/4746df5a-7f6f-4edb-a233-abd6ee71414e)
