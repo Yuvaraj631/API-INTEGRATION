@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Weather App</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Real-Time Chat</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <div class="container">
-    <h1>🌦️ Weather App</h1>
-    <form id="weatherForm">
-      <input type="text" id="cityInput" placeholder="Enter city name" required />
-      <button type="submit">Get Weather</button>
+  <div class="chat-container">
+    <h1>💬 Chat Room</h1>
+    <ul id="messages"></ul>
+    <form id="form" action="">
+      <input id="input" autocomplete="off" placeholder="Type a message..." /><button>Send</button>
     </form>
-    <div id="weatherResult" class="weather-card hidden"></div>
   </div>
 
+  <script src="/socket.io/socket.io.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
