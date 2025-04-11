@@ -1,4 +1,4 @@
-# REAL-TIME COLLABORATIVE DOCUMENT EDITOR
+# API-INTEGRATION
 
 *Company* : CodTech IT Solutions
 
@@ -12,10 +12,8 @@
 
 *Mentor* : Neela Santosh
 
-#This project is a full-stack web application that combines a dynamic frontend built with modern JavaScript frameworks like **React.js** or **Vue.js**, a robust backend developed using **Node.js** or **Python frameworks like Django or Flask**, and a powerful database layer using **MongoDB** or **PostgreSQL**. The goal of the project is to create a responsive and interactive user interface that communicates seamlessly with a backend API, which in turn performs data processing, storage, and retrieval. By using component-based libraries such as React or Vue, the frontend is designed to update in real time based on user interactions, offering smooth transitions, instant feedback, and a more engaging experience. This architecture allows for a clear separation of concerns between UI logic, server-side functionality, and persistent data management.
-
-On the backend, **Node.js with Express** or **Python with Django/Flask** provides a RESTful API or WebSocket-based service layer, handling everything from user authentication to data validation and business logic. This service layer communicates with a database—either a **NoSQL database like MongoDB** for flexible document storage or a **relational database like PostgreSQL** for structured data and complex queries. The backend handles secure data storage, user sessions, and any logic required to manage the state of the application. This tech stack enables scalable, maintainable, and high-performance development, making it ideal for building real-world applications like dashboards, chat systems, e-commerce platforms, or productivity tools. By combining these modern technologies, the project offers a complete development experience from frontend interactivity to backend data persistence.#
+#This project is a responsive weather information webpage that fetches and displays real-time weather data from the OpenWeatherMap API based on user input. Using HTML, CSS, and JavaScript, the app allows users to enter a city name and receive instant updates on current temperature and weather conditions such as “clear sky” or “light rain.” When the user clicks the button, a JavaScript function constructs a URL request to the API, fetches the weather data in JSON format, and updates the webpage dynamically without reloading. If the input is invalid or there’s an issue with the API, the app gracefully shows an error message like “City not found” or “Error fetching weather data.” The interface is designed to be simple and mobile-friendly, with a clean layout and smooth user interaction. This project is ideal for beginners learning how to use REST APIs, handle asynchronous requests with fetch(), and manipulate the DOM. It also serves as a great foundation for adding more advanced features, such as extended forecasts, weather icons, or geolocation support. With a few lines of code and minimal setup, this app provides practical experience in creating dynamic, real-time web applications using modern frontend technologies.#
 
 #OUTPUT
 
-![Image](https://github.com/user-attachments/assets/4746df5a-7f6f-4edb-a233-abd6ee71414e)
+
